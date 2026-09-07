@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2563eb" />
+    <title>Tarique Geldenhuys | Computer Technician & AI Operations Specialist</title>
+    <meta
+      name="description"
+      content="Tarique Geldenhuys — Computer Technician and AI Operations Specialist based in Cape Town, South Africa. Fixing systems fast and building AI tools for proactive IT support."
+    />
+    <meta name="author" content="Tarique Geldenhuys" />
+    <meta name="keywords" content="Computer Technician, AI Operations, IT Support, Automation, Cape Town, South Africa" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tarique Geldenhuys | Computer Technician & AI Operations Specialist" />
+    <meta
+      property="og:description"
+      content="Fixing systems fast and building AI tools for proactive IT support. Based in Cape Town, South Africa."
+    />
+    <meta property="og:locale" content="en_ZA" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Tarique Geldenhuys | Computer Technician & AI Operations Specialist" />
+    <meta
+      name="twitter:description"
+      content="Fixing systems fast and building AI tools for proactive IT support. Based in Cape Town, South Africa."
+    />
+
+    <!-- Prevent FOUC for dark mode -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
